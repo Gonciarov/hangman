@@ -1,0 +1,48 @@
+body{
+	background-color: #7fbfda;
+}
+
+h1{
+	font-family: sans-serif;
+	-webkit-text-stroke: 2px blue;
+	font-size: 6em;
+	color: white;
+}
+
+
+.letter{
+	border: white 3px solid;
+	padding: 1px 3px 1px 3px;
+	font-size: 2em;
+	margin: 5px;
+	background-color: blue;
+	color: white;
+	float: left;
+	min-width: 35px;
+	text-align: center;
+	box-shadow: 2px solid white;
+}
+.letter:hover{
+	cursor: pointer;
+}
+#wordContainer{
+	font-family: sans-serif;
+	letter-spacing: 2em;
+	font-size: 3em;
+	padding: 2em;
+	font-weight: bolder;
+}
+#hangmanContainer{
+	font-size: 4em;
+	padding-top: 2em;
+	font-family: sans-serif;
+	-webkit-text-stroke: 2px blue;
+	color: white;
+}
+#loseText{
+	font-size: 4em;
+	padding-top: 0.5em;
+	font-family: sans-serif;
+	-webkit-text-stroke: 2px blue;
+	color: white;
+}
